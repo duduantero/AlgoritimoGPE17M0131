@@ -2,10 +2,27 @@
 #include <stdlib.h>
 #include <locale.h>
 
-/* Quest„o 1 - FaÁa um programa em que o usu·rio digite o custo de uma determinada mercadoria, em seguida, adicionase ao custo o valor do frete e despesas eventuais (tambÈm solicitadas pelo teclado). Para concluir, o programa pergunta 
+/* Quest√£oo 1 - Fa√ßa um programa em que o usu√°rio digite o custo de uma determinada mercadoria, em seguida, adiciona-se ao custo o valor do frete e despesas eventuais (tamb√©m solicitadas pelo teclado). Para concluir, o programa pergunta 
 qual o valor de venda e indica a percentagem de lucro da mercadoria.*/
 
 int main (){
 	setlocale(LC_ALL, "Portuguese");
+
+	float custo,frete,despesas,venda,lucro;
+
+	printf("Informe o custo de mercadoria: ");
+	scanf("%f", &custo);
+
+	printf("Informe o valor do frete: ");
+	scanf("%f",&frete);
+
+	printf("Informe despesas eventuais: ");
+	scanf("%f",&despesas);
+
+	printf("Informe o valor de venda: ");
+	scanf("%f",venda);
+
+	printf("Sua percentagem de lucro √© de %f %%",lucro);
+
 	
 }
