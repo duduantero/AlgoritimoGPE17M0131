@@ -24,5 +24,4 @@ int main (){
 
 	printf("Sua percentagem de lucro é de %f %%",lucro);
 
-	
 }
