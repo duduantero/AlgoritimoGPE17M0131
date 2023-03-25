@@ -20,10 +20,10 @@ void main ().{
 
     media = (nota1 + nota2 + nota3 + nota4)/4;
 
-    if (media == 0 || media <= 3){
+    if (media == 0 && media <= 3){
         printf("Reprovado");
-    }else if (media == 3.1 || media <= 6.9){
-        printf("Recuperação");
+    }else if (media == 3.1 && media <= 6.9){
+        printf("RecuperaÃ§Ã£o");
     }else if (media > 6.9){
         printf("Aprovado");
     }
