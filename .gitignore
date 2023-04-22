@@ -1,0 +1,3 @@
+//Ignorar os arquivos compilados e executaveis do projeto
+*.o
+*.exe

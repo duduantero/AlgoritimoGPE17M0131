@@ -2,8 +2,12 @@
 #include <stdlib.h>
 #include <locale.h>
 
-int main ()
+int main (void)
 {
     setlocale(LC_ALL, "");
+
+
+
+    getch();
     return 0;
-}
+    }
