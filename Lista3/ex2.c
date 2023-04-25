@@ -6,7 +6,6 @@ int main ()
 {
     setlocale(LC_ALL, "");
     
-    int main() {
     int cont;
     for(cont=0; cont<15; cont ++){
         printf("%d ",15-cont);}
