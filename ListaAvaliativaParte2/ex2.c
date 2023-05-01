@@ -29,7 +29,6 @@ int main (void)
 
     distancia = sqrt(p1);
 
-
     printf("\n A distancia entre os pontos é : %.4f \n",distancia);
 
     return 0;
