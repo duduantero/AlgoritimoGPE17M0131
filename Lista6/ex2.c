@@ -1,4 +1,7 @@
 #include <stdio.h>
+#include <locale.h>
+#include <stdlib.h>
+#include <conio.h>
 
 // Função que incrementa o valor por meio de um ponteiro
 void incrementar(int *numero) {
@@ -6,6 +9,7 @@ void incrementar(int *numero) {
 }
 
 int main() {
+    setlocale(LC_ALL, "Portuguese");
     int numero;
 
     printf("Digite um número inteiro: ");
