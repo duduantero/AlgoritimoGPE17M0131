@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <conio.h> //ou conio.c
 
+
 int main (void) {
     //declaração de variáveis
 
